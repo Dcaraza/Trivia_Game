@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+
+}
+
+.grid {
+  width: 960px;
+  min-height: 80%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin:auto;
+  background-color: red;
+}
+
+button:after:active {
+  display: block;
+  width: 400px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+h1 {
+  /* margin-bottom: 50px; */
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+  /* padding: 20px; */
+  font-size: 45px;
+  }
+  
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+#start {
+  width: 500px;
+  height:100px;
+  margin-top: 10%;
+  background: yellow;
+  border: 10px solid;
+}
+
+button:hover {
+  background: yellow;
+  border: 2px solid; 
+}
+
+.answerchoice {
+	border: 2px solid black;
+  border-radius: 25%;
+	width: 40%;
+	color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: yellow;
+
+}
+
+img {
+  max-height: 350px;
+  width: auto;
+}
+
+#answerblock {
+  text-align: center;
+
+}
+
+#questionblock {
+  text-align: center;
+  font-weight: bold;
+}
+
+#reset {
+  visibility: visible;
+}
+
+
+
+.btn {
+  position: relative;
+  bottom: 150px;
+}
